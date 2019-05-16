@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Interview from './components/Interview.js'
 
 function App() {
   return (
@@ -17,8 +18,9 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a>        
       </header>
+      <Interview />
     </div>
   );
 }
