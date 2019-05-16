@@ -1,11 +1,11 @@
-import React from 'React'
-import getInterviewLink from './src/interviewLink'
+import React from 'react'
+import getInterviewLink from '../interviewLink.js'
 
 const Interview = () => {
 	return(
 		<div>
-			<button onClick={getInterviewLink}></button>
-			<text>Text here</text>
+			<button onClick={getInterviewLink}>hi</button>
+			<p>Text here</p>
 		</div>
 	)
 }
